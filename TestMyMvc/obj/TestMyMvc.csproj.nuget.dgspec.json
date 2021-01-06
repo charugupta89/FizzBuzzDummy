@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\TestMyMvc\\TestMyMvc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\BusinessLogic\\BusinessLogic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\BusinessLogic\\BusinessLogic.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\TestMyMvc\\TestMyMvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\TestMyMvc\\TestMyMvc.csproj",
+        "projectName": "TestMyMvc",
+        "projectPath": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\TestMyMvc\\TestMyMvc.csproj",
+        "packagesPath": "C:\\Users\\Charu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\TestMyMvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Charu\\source\\repos\\TestMyMvc\\BusinessLogic\\BusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "PagedList.Core.Mvc": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "StructureMap.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "structuremap": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TestMyMvc.Model.GetFizzBuzz
+@{
+    ViewBag.Title = "Mymvc";
+}
+
+<div class="jumbotron">
+    <h1>FizzBuzz</h1>
+</div>
+
+<form action="/Home/Index" method="POST">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+            @Html.TextBoxFor(m => m.Position)
+            @Html.ValidationMessageFor(m => m.Position)
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" class="btn btn-default" value="Get FizzBuzz" />
+    </div>
+
+</form>
